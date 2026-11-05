@@ -22,6 +22,8 @@ display: grid;
 
 .sidebar {
   grid-row: 1 / 4;
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr 6fr;
 }
 
 .tiles {
