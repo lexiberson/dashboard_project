@@ -13,6 +13,10 @@ display: grid;
 .header {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 .navigation {
@@ -20,11 +24,11 @@ display: grid;
     grid-row: 2 / 3;
 }
 
-.sidebar {
+.dashboard {
   grid-row: 1 / 4;
   display: grid;
-  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr 6fr;
 }
+
 
 .tiles {
     grid-column: 2 / 3;
