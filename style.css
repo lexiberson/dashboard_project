@@ -71,12 +71,14 @@ li:hover {
 }
 
 table{
-  object-fit: contain;
+  
 }
 
 .sidebar {
   display: flex;
   flex-direction: column;
+  background-color: var(--primary-color);
+  color: var(--color);
 }
 
 
