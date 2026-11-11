@@ -70,7 +70,14 @@ li:hover {
   cursor: pointer;
 }
 
+table{
+  object-fit: contain;
+}
 
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
 
 
 .footer {
