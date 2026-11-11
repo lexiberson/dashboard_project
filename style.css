@@ -20,7 +20,7 @@ html {
 .container {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-rows: .75fr 3fr .3fr;
 }
 
 .header {
@@ -46,9 +46,23 @@ ul {
   margin-bottom: 20px;
 }
 
-img tr:hover {
+ul li {
+   transition: background-color 0.3s ease;
+}
+li:hover {
   background-color: #282828;
-    transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+
+span {
+  color: #1DB954;
+  transition: background-color 0.3s ease;
+}
+
+.footer1:hover {
+  background-color: #282828;
+  cursor: pointer;
 }
 
 
@@ -56,19 +70,26 @@ img tr:hover {
   grid-column: 1 / 3;
   grid-row: 3 / 4;
   background-color: var(--primary-color);
-  color: var(--color);
-  
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding-top: 10px;
 }
 
 .footer img {
-  width: 90px;
-  height: 90px;
+  width: 50px;
+  height: 50px;
 }
 
 .footer1 {
   display: flex;
+  align-items: center;
   justify-content: center;
-  justify-content: space-around;
+  gap: 25px;
 }
 
 img {
